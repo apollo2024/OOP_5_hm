@@ -25,7 +25,7 @@ public class UserView {
             case 2 -> bank.show();
             case 3 -> bank.transactions();
             case 4 -> stop(4);
-
+            default -> badMassege();
         }
     }
     public int stop(int stoper){
